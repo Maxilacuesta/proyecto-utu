@@ -1,0 +1,84 @@
+.fijo {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #808080;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  z-index: 10;
+
+}
+
+
+
+
+ul {
+
+  list-style-type: none;
+  overflow: hidden;
+
+  padding: 5px;
+  margin: 0;
+
+}
+
+li {
+
+  float: left;
+  padding: 5px;
+
+}
+
+li a {
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-family: sans-serif;
+  display: flex;
+  padding: 5px;
+
+
+}
+
+.fijo {
+
+  position: fixed;/* Posición fija en la parte superior de la página */
+   top: 0;
+   width: 100%;/* Ancho completo */
+   background-color: #808080; /* Color de fondo */
+  display: flex; /* 'display: flex' establece un contenedor como flexible, permitiendo que sus elementos hijos se ajusten 
+  automáticamente a diferentes tamaños de pantalla y se distribuyan según reglas de diseño específicas. */
+align-items: center;/* Alinear elementos verticalmente */
+   justify-content: space-between;/* Espacio uniformemente entre elementos */
+z-index: 10;/* Índice Z para superponer sobre otros elementos */
+  
+}
+ul {
+  /* Estilos para la lista de navegación */
+  list-style-type: none; /* Quitar viñetas */
+  overflow: hidden;  /* Ocultar desbordamiento */
+ padding: 5px; /* Relleno */
+ margin: 0; /* Margen */
+ 
+}
+li {
+  /* Estilos para los elementos de la lista */
+  float: left;/* Flotar a la izquierda */
+  padding: 5px; /* Relleno */
+ 
+}
+li a {
+  /* Estilos para los enlaces de la lista */
+ margin-top: 10px;  /* Margen superior */
+ text-decoration: none; /* Quitar subrayado */
+  font-size: 20px;/* Tamaño de la fuente */
+   color: black;/* Color del texto */
+   font-family: sans-serif; /* Familia de fuentes */
+ display: flex; /* Mostrar como flexbox */
+  padding: 5px; /* Relleno */
+ 
+}
